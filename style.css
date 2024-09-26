@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.wrap {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+}
+
+.characterContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.characterItem {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #262525;
+    color:rgb(26, 126, 26) ;
+    border-radius: 10px;
+}
+
+.characterItem img {
+    width: 90%;
+    border-radius: 10px;
+}
+
+.characterItem button {
+    width: 70px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controlContainer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    padding: 30px 0;
+    align-items: center;
+    background-color: transparent;
+}
+
+.controlContainer button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 0 15px;
+    border-radius: 5px;
+    border: 1px solid #00ff00 ;
+}
+
+.currentPage {
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.popup {
+    width: 550px;
+    height: 400px;
+    background-color: #333; 
+    color: #00ff00;
+    border: 2px solid #00ff00; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.3);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.popup img{
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(26, 126, 26);
+    font-weight: 700;
+    font-size: 2rem;
+}
+li{
+    font-size: 30px;
+    color: rgb(26, 126, 26);
+}
+.header {
+    padding: 20px;
+    background-color: #333;
+}
+.header img{
+    width: 200px;
+    height: 100px;
+}
+.header a {
+    color: limegreen;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
